@@ -114,7 +114,7 @@ function App() {
           <span className="hero-tag">📍 Samarinda, Kalimantan Timur</span>
           <h1>Boncafe Steak & Ice Cream</h1>
           <p className="hero-subtitle">
-            Nikmati sensasi steak premium dan es krim spesial di heart of Samarinda. 
+            Nikmati sensasi steak premium dan es krim spesial di hati Samarinda. 
             Tempat makan keluarga favorit sejak 2010.
           </p>
           <div className="hero-buttons">

@@ -277,13 +277,21 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="location-map">
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255175.81387855912!2d116.9071204!3d-0.5016553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df6c9a9c4960a65%3A0x3030bfbcaf770b0!2sSamarinda%2C%20Kota%20Samarinda%2C%20Kalimantan%20Timur!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid" 
-                loading="lazy" 
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Boncafe Location"
-              ></iframe>
+            <div className="location-map" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '400px', background: 'linear-gradient(135deg, #f8f4f0, #ede8e1)', borderRadius: '8px' }}>
+              <div style={{ textAlign: 'center', padding: '32px' }}>
+                <div style={{ fontSize: '3rem', marginBottom: '16px' }}>📍</div>
+                <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '1.3rem', color: '#2C1810', marginBottom: '8px' }}>Samarinda, Kalimantan Timur</h3>
+                <p style={{ color: '#8B7355', marginBottom: '20px', fontSize: '0.95rem' }}>Boncafe Steak & Ice Cream</p>
+                <a 
+                  href="https://www.google.com/maps/search/Boncafe+Steak+Ice+Cream+Samarinda" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="menu-card-btn"
+                  style={{ background: '#8B4513', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: 600, fontSize: '0.9rem' }}
+                >
+                  Buka di Google Maps →
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -336,7 +344,7 @@ function App() {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>© 2024 Boncafe Steak & Ice Cream Samarinda. All rights reserved.</p>
+            <p>© 2026 Boncafe Steak & Ice Cream Samarinda. All rights reserved.</p>
           </div>
         </div>
       </footer>
